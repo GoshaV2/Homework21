@@ -66,7 +66,7 @@ public class Main {
     private static void task3() {
         Set<Integer> integers = new HashSet<>();
         Random random = new Random();
-        for (int i = 0; i < 20; i++) {
+        while (integers.size() != 20) {
             integers.add(random.nextInt(1000));
         }
         Iterator<Integer> iterator = integers.iterator();

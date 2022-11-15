@@ -11,9 +11,9 @@ public abstract class Driver<T extends Car> {
 
     public Driver(String fullName, boolean hasDriverLicense, int drivingExperienceYears) throws Exception {
         this.fullName = fullName;
-        if(!hasDriverLicense){
-            throw new Exception("Необходимо указать тип прав!");
-        }
+//        if(!hasDriverLicense){
+//            throw new Exception("Необходимо указать тип прав!");
+//        }
         this.hasDriverLicense = hasDriverLicense;
         this.drivingExperienceYears = drivingExperienceYears;
     }
